@@ -1,0 +1,287 @@
+2024-06-30T18:22:17.211Z [INFO]: # Cloning repository: git@github.com:virshu/amplify-angular.git
+*
+2024-06-30T18:22:18.250Z [INFO]:
+2024-06-30T18:22:18.250Z [INFO]: Cloning into 'amplify-angular'...
+2024-06-30T18:22:18.251Z [INFO]: # Checking for Git submodules at: /codebuild/output/src1708989705/src/amplify-angular/.gitmodules
+2024-06-30T18:22:18.259Z [INFO]: # Retrieving environment cache...
+2024-06-30T18:22:18.293Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2024-06-30T18:22:18.293Z [INFO]: ---- Setting Up SSM Secrets ----
+2024-06-30T18:22:18.293Z [INFO]: SSM params {"Path":"/amplify/dhoi3bcv79gio/main/","WithDecryption":true}
+2024-06-30T18:22:19.471Z [INFO]: No live updates for this build run
+2024-06-30T18:22:19.476Z [INFO]: # Retrieving cache...
+2024-06-30T18:22:19.525Z [INFO]: # Retrieved cache
+2024-06-30T18:22:24.087Z [INFO]: ## Starting Backend Build
+# Starting phase: build
+# Executing command: npm ci --cache .npm --prefer-offline
+2024-06-30T18:23:03.515Z [WARNING]: npm WARN
+2024-06-30T18:23:03.527Z [WARNING]: deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm WARN deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+2024-06-30T18:23:15.420Z [WARNING]: npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+2024-06-30T18:23:18.059Z [INFO]: added 1715 packages, and audited 1834 packages in 39s
+2024-06-30T18:23:18.059Z [INFO]: 207 packages are looking for funding
+run `npm fund` for details
+2024-06-30T18:23:18.066Z [INFO]: 3 high severity vulnerabilities
+To address all issues, run:
+npm audit fix
+Run `npm audit` for details.
+2024-06-30T18:23:18.092Z [INFO]: # Executing command: npx ampx pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID
+2024-06-30T18:23:27.495Z [INFO]:
+2024-06-30T18:23:33.436Z [INFO]: ✨ Synthesis time: 0.06s
+2024-06-30T18:23:33.897Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 485dc4f5e39ce304cdf44535d7c2e65be0d6b11ec1c6420a1f833b8cfebbcf4c:current_account-current_region
+2024-06-30T18:23:33.898Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 485dc4f5e39ce304cdf44535d7c2e65be0d6b11ec1c6420a1f833b8cfebbcf4c:current_account-current_region
+2024-06-30T18:23:33.898Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 3542be390685e0c8353d92ccb5796d343cd93ca946b6b0de798004206a199adc:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 3542be390685e0c8353d92ccb5796d343cd93ca946b6b0de798004206a199adc:current_account-current_region
+2024-06-30T18:23:33.898Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 485dc4f5e39ce304cdf44535d7c2e65be0d6b11ec1c6420a1f833b8cfebbcf4c:current_account-current_region
+2024-06-30T18:23:33.899Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 3542be390685e0c8353d92ccb5796d343cd93ca946b6b0de798004206a199adc:current_account-current_region
+2024-06-30T18:23:33.900Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 41bdd0b5e368e73d1b9b7a5d38f157b04eec370fdc5576060411fbbe6e56645e:current_account-current_region
+2024-06-30T18:23:33.900Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 41bdd0b5e368e73d1b9b7a5d38f157b04eec370fdc5576060411fbbe6e56645e:current_account-current_region
+2024-06-30T18:23:33.902Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3:current_account-current_region
+2024-06-30T18:23:33.902Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3:current_account-current_region
+2024-06-30T18:23:33.902Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 41bdd0b5e368e73d1b9b7a5d38f157b04eec370fdc5576060411fbbe6e56645e:current_account-current_region
+2024-06-30T18:23:33.903Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77:current_account-current_region
+2024-06-30T18:23:33.903Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77:current_account-current_region
+2024-06-30T18:23:33.903Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3:current_account-current_region
+2024-06-30T18:23:33.905Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77:current_account-current_region
+2024-06-30T18:23:33.906Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 08f4d557693d96c1a4efba0f9dc91330e4b19772fd5477c156468843e3d9cb5e:current_account-current_region
+2024-06-30T18:23:33.907Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 08f4d557693d96c1a4efba0f9dc91330e4b19772fd5477c156468843e3d9cb5e:current_account-current_region
+2024-06-30T18:23:33.908Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 4c6a2d29f01c6091bd1d9afe16e5849d456c96f17c3b215938c8067399532719:current_account-current_region
+2024-06-30T18:23:33.908Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 4c6a2d29f01c6091bd1d9afe16e5849d456c96f17c3b215938c8067399532719:current_account-current_region
+2024-06-30T18:23:33.909Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 08f4d557693d96c1a4efba0f9dc91330e4b19772fd5477c156468843e3d9cb5e:current_account-current_region
+2024-06-30T18:23:33.912Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 3665466abf40cc747bff935f1cf2f49edd920e2cd12d45d502d3857488b3ff3e:current_account-current_region
+2024-06-30T18:23:33.912Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 3665466abf40cc747bff935f1cf2f49edd920e2cd12d45d502d3857488b3ff3e:current_account-current_region
+2024-06-30T18:23:33.912Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 4c6a2d29f01c6091bd1d9afe16e5849d456c96f17c3b215938c8067399532719:current_account-current_region
+2024-06-30T18:23:33.918Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 3665466abf40cc747bff935f1cf2f49edd920e2cd12d45d502d3857488b3ff3e:current_account-current_region
+2024-06-30T18:23:33.919Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building cc01911d0269d4080ea57505dc445dfc315ef7ad85d3d9d4ea1357858bff451d:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built cc01911d0269d4080ea57505dc445dfc315ef7ad85d3d9d4ea1357858bff451d:current_account-current_region
+2024-06-30T18:23:33.927Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building a183ddccbd956316c38ef97177b8f088ef0826f62023323f5ae6053d348ccffc:current_account-current_region
+2024-06-30T18:23:33.927Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built a183ddccbd956316c38ef97177b8f088ef0826f62023323f5ae6053d348ccffc:current_account-current_region
+2024-06-30T18:23:33.935Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building d637c1fb7301003b8a5ada269338cf2e8df6cc0dc412ef13acc6158d680b6d3e:current_account-current_region
+2024-06-30T18:23:33.935Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built d637c1fb7301003b8a5ada269338cf2e8df6cc0dc412ef13acc6158d680b6d3e:current_account-current_region
+2024-06-30T18:23:33.944Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 2bf64327ca5682da4be84d0d16440204e25abc3a221195b41f2d21dfa432e5ab:current_account-current_region
+2024-06-30T18:23:33.944Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 2bf64327ca5682da4be84d0d16440204e25abc3a221195b41f2d21dfa432e5ab:current_account-current_region
+2024-06-30T18:23:33.945Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249:current_account-current_region
+2024-06-30T18:23:33.946Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 06db846fd14e6fc371f22b12b5545ba8e2dbfeda85d8c8d586c71c282166657b:current_account-current_region
+2024-06-30T18:23:33.946Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 06db846fd14e6fc371f22b12b5545ba8e2dbfeda85d8c8d586c71c282166657b:current_account-current_region
+2024-06-30T18:23:33.946Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c:current_account-current_region
+2024-06-30T18:23:33.947Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c:current_account-current_region
+2024-06-30T18:23:33.947Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 89f92efd98b1034df0e2497fe31a97de6975de554b8a22e0677d05d6efcafa59:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 89f92efd98b1034df0e2497fe31a97de6975de554b8a22e0677d05d6efcafa59:current_account-current_region
+2024-06-30T18:23:33.947Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 474bf0776ec2164a13191d1a0a9e057154931e4918fea5086f49850d02a5371b:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 474bf0776ec2164a13191d1a0a9e057154931e4918fea5086f49850d02a5371b:current_account-current_region
+2024-06-30T18:23:33.956Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building e3416b4d47414f29c21e59a70e83bddb959ef0625854ed7fb0ca376573e99069:current_account-current_region
+2024-06-30T18:23:33.956Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built e3416b4d47414f29c21e59a70e83bddb959ef0625854ed7fb0ca376573e99069:current_account-current_region
+2024-06-30T18:23:33.956Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 4f7907d1209a2c9953a0c053df402c634e359546d70c7cc5c2e8e21ea734880f:current_account-current_region
+2024-06-30T18:23:33.956Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 4f7907d1209a2c9953a0c053df402c634e359546d70c7cc5c2e8e21ea734880f:current_account-current_region
+2024-06-30T18:23:33.957Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b:current_account-current_region
+2024-06-30T18:23:33.957Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b:current_account-current_region
+2024-06-30T18:23:33.968Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502:current_account-current_region
+2024-06-30T18:23:33.968Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502:current_account-current_region
+2024-06-30T18:23:33.969Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc:current_account-current_region
+2024-06-30T18:23:33.969Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc:current_account-current_region
+2024-06-30T18:23:33.969Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 2eb6a831b107939f63cfebf68e6316e1a40f79fc99cae0fee9b333bac8d29bc4:current_account-current_region
+2024-06-30T18:23:33.969Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 2eb6a831b107939f63cfebf68e6316e1a40f79fc99cae0fee9b333bac8d29bc4:current_account-current_region
+2024-06-30T18:23:33.980Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 3322b7049fb0ed2b7cbb644a2ada8d1116ff80c32dca89e6ada846b5de26f961:current_account-current_region
+2024-06-30T18:23:33.981Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 3322b7049fb0ed2b7cbb644a2ada8d1116ff80c32dca89e6ada846b5de26f961:current_account-current_region
+2024-06-30T18:23:33.989Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 2d56e153cac88d3e0c2f842e8e6f6783b8725bf91f95e0673b4725448a56e96d:current_account-current_region
+2024-06-30T18:23:33.989Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 2d56e153cac88d3e0c2f842e8e6f6783b8725bf91f95e0673b4725448a56e96d:current_account-current_region
+2024-06-30T18:23:33.997Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building f99e250b07298c1eeb19f4da0ad795be74c098a424ba42c5d0f28add468f5a29:current_account-current_region
+2024-06-30T18:23:33.997Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built f99e250b07298c1eeb19f4da0ad795be74c098a424ba42c5d0f28add468f5a29:current_account-current_region
+2024-06-30T18:23:33.997Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 83a44a302eb7a607112e683cfa0f501b15b579a1ac9e8cf29a75919cbeda6419:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 83a44a302eb7a607112e683cfa0f501b15b579a1ac9e8cf29a75919cbeda6419:current_account-current_region
+2024-06-30T18:23:33.997Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 7b83e159f236f5438d4c4748d95b1ed3545809652935abde01b6fc40cc6b0b1f:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 7b83e159f236f5438d4c4748d95b1ed3545809652935abde01b6fc40cc6b0b1f:current_account-current_region
+2024-06-30T18:23:33.997Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building b349210cfd1eaed48e99fa8f6fe53b7e37d05f66596de0d18dc86cc2a0632a68:current_account-current_region
+2024-06-30T18:23:33.998Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built b349210cfd1eaed48e99fa8f6fe53b7e37d05f66596de0d18dc86cc2a0632a68:current_account-current_region
+2024-06-30T18:23:33.998Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 35b65d34e9fbfdb24fdd4404082517a9d007d5e85f2b362521e5dc3fb767f19a:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 35b65d34e9fbfdb24fdd4404082517a9d007d5e85f2b362521e5dc3fb767f19a:current_account-current_region
+2024-06-30T18:23:33.998Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building 8bc494da2b623780b2b6f0c660771ccc280dfc224e874f39bdc9f504019e3a13:current_account-current_region
+2024-06-30T18:23:33.998Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built 8bc494da2b623780b2b6f0c660771ccc280dfc224e874f39bdc9f504019e3a13:current_account-current_region
+2024-06-30T18:23:33.999Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Building d5b454d27d4f75a6a05a021405c6b4f6644456caa8ec8ccbf929f10e74377a21:current_account-current_region
+2024-06-30T18:23:33.999Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Built d5b454d27d4f75a6a05a021405c6b4f6644456caa8ec8ccbf929f10e74377a21:current_account-current_region
+2024-06-30T18:23:34.203Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77:current_account-current_region
+2024-06-30T18:23:34.204Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing cc01911d0269d4080ea57505dc445dfc315ef7ad85d3d9d4ea1357858bff451d:current_account-current_region
+2024-06-30T18:23:34.212Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3:current_account-current_region
+2024-06-30T18:23:34.212Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 4c6a2d29f01c6091bd1d9afe16e5849d456c96f17c3b215938c8067399532719:current_account-current_region
+2024-06-30T18:23:34.213Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 3665466abf40cc747bff935f1cf2f49edd920e2cd12d45d502d3857488b3ff3e:current_account-current_region
+2024-06-30T18:23:34.213Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing a183ddccbd956316c38ef97177b8f088ef0826f62023323f5ae6053d348ccffc:current_account-current_region
+2024-06-30T18:23:34.214Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing d637c1fb7301003b8a5ada269338cf2e8df6cc0dc412ef13acc6158d680b6d3e:current_account-current_region
+amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 2bf64327ca5682da4be84d0d16440204e25abc3a221195b41f2d21dfa432e5ab:current_account-current_region
+2024-06-30T18:23:34.234Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 08f4d557693d96c1a4efba0f9dc91330e4b19772fd5477c156468843e3d9cb5e:current_account-current_region
+2024-06-30T18:23:34.234Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249:current_account-current_region
+2024-06-30T18:23:34.252Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 3542be390685e0c8353d92ccb5796d343cd93ca946b6b0de798004206a199adc:current_account-current_region
+2024-06-30T18:23:34.256Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 06db846fd14e6fc371f22b12b5545ba8e2dbfeda85d8c8d586c71c282166657b:current_account-current_region
+2024-06-30T18:23:34.284Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 41bdd0b5e368e73d1b9b7a5d38f157b04eec370fdc5576060411fbbe6e56645e:current_account-current_region
+2024-06-30T18:23:34.284Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c:current_account-current_region
+2024-06-30T18:23:34.289Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 485dc4f5e39ce304cdf44535d7c2e65be0d6b11ec1c6420a1f833b8cfebbcf4c:current_account-current_region
+2024-06-30T18:23:34.291Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 89f92efd98b1034df0e2497fe31a97de6975de554b8a22e0677d05d6efcafa59:current_account-current_region
+2024-06-30T18:23:34.322Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published cc01911d0269d4080ea57505dc445dfc315ef7ad85d3d9d4ea1357858bff451d:current_account-current_region
+2024-06-30T18:23:34.323Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 474bf0776ec2164a13191d1a0a9e057154931e4918fea5086f49850d02a5371b:current_account-current_region
+2024-06-30T18:23:34.335Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published d637c1fb7301003b8a5ada269338cf2e8df6cc0dc412ef13acc6158d680b6d3e:current_account-current_region
+2024-06-30T18:23:34.336Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing e3416b4d47414f29c21e59a70e83bddb959ef0625854ed7fb0ca376573e99069:current_account-current_region
+2024-06-30T18:23:34.342Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published a183ddccbd956316c38ef97177b8f088ef0826f62023323f5ae6053d348ccffc:current_account-current_region
+2024-06-30T18:23:34.343Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 4f7907d1209a2c9953a0c053df402c634e359546d70c7cc5c2e8e21ea734880f:current_account-current_region
+2024-06-30T18:23:34.349Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 2bf64327ca5682da4be84d0d16440204e25abc3a221195b41f2d21dfa432e5ab:current_account-current_region
+2024-06-30T18:23:34.350Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b:current_account-current_region
+2024-06-30T18:23:34.373Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249:current_account-current_region
+2024-06-30T18:23:34.373Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502:current_account-current_region
+2024-06-30T18:23:34.413Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c:current_account-current_region
+2024-06-30T18:23:34.414Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc:current_account-current_region
+2024-06-30T18:23:34.416Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 89f92efd98b1034df0e2497fe31a97de6975de554b8a22e0677d05d6efcafa59:current_account-current_region
+2024-06-30T18:23:34.417Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 2eb6a831b107939f63cfebf68e6316e1a40f79fc99cae0fee9b333bac8d29bc4:current_account-current_region
+2024-06-30T18:23:34.437Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 474bf0776ec2164a13191d1a0a9e057154931e4918fea5086f49850d02a5371b:current_account-current_region
+2024-06-30T18:23:34.438Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 3322b7049fb0ed2b7cbb644a2ada8d1116ff80c32dca89e6ada846b5de26f961:current_account-current_region
+2024-06-30T18:23:34.456Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b:current_account-current_region
+2024-06-30T18:23:34.460Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 2d56e153cac88d3e0c2f842e8e6f6783b8725bf91f95e0673b4725448a56e96d:current_account-current_region
+2024-06-30T18:23:34.463Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 06db846fd14e6fc371f22b12b5545ba8e2dbfeda85d8c8d586c71c282166657b:current_account-current_region
+2024-06-30T18:23:34.475Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published e3416b4d47414f29c21e59a70e83bddb959ef0625854ed7fb0ca376573e99069:current_account-current_region
+2024-06-30T18:23:34.477Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing f99e250b07298c1eeb19f4da0ad795be74c098a424ba42c5d0f28add468f5a29:current_account-current_region
+2024-06-30T18:23:34.481Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 83a44a302eb7a607112e683cfa0f501b15b579a1ac9e8cf29a75919cbeda6419:current_account-current_region
+2024-06-30T18:23:34.486Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502:current_account-current_region
+2024-06-30T18:23:34.488Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 4f7907d1209a2c9953a0c053df402c634e359546d70c7cc5c2e8e21ea734880f:current_account-current_region
+2024-06-30T18:23:34.492Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 7b83e159f236f5438d4c4748d95b1ed3545809652935abde01b6fc40cc6b0b1f:current_account-current_region
+2024-06-30T18:23:34.493Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing b349210cfd1eaed48e99fa8f6fe53b7e37d05f66596de0d18dc86cc2a0632a68:current_account-current_region
+2024-06-30T18:23:34.572Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc:current_account-current_region
+2024-06-30T18:23:34.573Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 35b65d34e9fbfdb24fdd4404082517a9d007d5e85f2b362521e5dc3fb767f19a:current_account-current_region
+2024-06-30T18:23:34.617Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published f99e250b07298c1eeb19f4da0ad795be74c098a424ba42c5d0f28add468f5a29:current_account-current_region
+2024-06-30T18:23:34.617Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 2d56e153cac88d3e0c2f842e8e6f6783b8725bf91f95e0673b4725448a56e96d:current_account-current_region
+2024-06-30T18:23:34.618Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing 8bc494da2b623780b2b6f0c660771ccc280dfc224e874f39bdc9f504019e3a13:current_account-current_region
+2024-06-30T18:23:34.618Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: start: Publishing d5b454d27d4f75a6a05a021405c6b4f6644456caa8ec8ccbf929f10e74377a21:current_account-current_region
+2024-06-30T18:23:34.628Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 83a44a302eb7a607112e683cfa0f501b15b579a1ac9e8cf29a75919cbeda6419:current_account-current_region
+2024-06-30T18:23:34.690Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 2eb6a831b107939f63cfebf68e6316e1a40f79fc99cae0fee9b333bac8d29bc4:current_account-current_region
+2024-06-30T18:23:34.694Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published b349210cfd1eaed48e99fa8f6fe53b7e37d05f66596de0d18dc86cc2a0632a68:current_account-current_region
+2024-06-30T18:23:34.705Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 7b83e159f236f5438d4c4748d95b1ed3545809652935abde01b6fc40cc6b0b1f:current_account-current_region
+2024-06-30T18:23:34.725Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 8bc494da2b623780b2b6f0c660771ccc280dfc224e874f39bdc9f504019e3a13:current_account-current_region
+2024-06-30T18:23:34.775Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published d5b454d27d4f75a6a05a021405c6b4f6644456caa8ec8ccbf929f10e74377a21:current_account-current_region
+2024-06-30T18:23:34.790Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 35b65d34e9fbfdb24fdd4404082517a9d007d5e85f2b362521e5dc3fb767f19a:current_account-current_region
+2024-06-30T18:23:34.907Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a: success: Published 3322b7049fb0ed2b7cbb644a2ada8d1116ff80c32dca89e6ada846b5de26f961:current_account-current_region
+2024-06-30T18:23:34.909Z [INFO]: [1mamplify-dhoi3bcv79gio-main-branch-0477962c1a[22m: deploying... [1/1]
+2024-06-30T18:23:34.960Z [INFO]: [1mamplify-dhoi3bcv79gio-main-branch-0477962c1a[22m: creating CloudFormation changeset...
+2024-06-30T18:23:46.681Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a-auth179371D7-1XHWDM7PLO15V | 0/11 | 6:23:44 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mamplify-dhoi3bcv79gio-main-branch-0477962c1a-auth179371D7-1XHWDM7PLO15V[22m[0m [36m[1mUser Initiated[22m[39m
+2024-06-30T18:23:46.774Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:35 PM | [0mREVIEW_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mamplify-dhoi3bcv79gio-main-branch-0477962c1a[22m[0m [36m[1mUser Initiated[22m[39m
+2024-06-30T18:23:46.775Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:40 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mamplify-dhoi3bcv79gio-main-branch-0477962c1a[22m[0m [36m[1mUser Initiated[22m[39m
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:43 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Role | [0m[1mAmplifyBranchLinker/CustomResourceLambda/ServiceRole[22m[0m (AmplifyBranchLinkerCustomResourceLambdaServiceRole3DDCBC03)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:43 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CDK::Metadata | [0m[1mauth/CDKMetadata/Default[22m[0m (CDKMetadata)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:43 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mauth.NestedStack/auth.NestedStackResource[22m[0m (auth179371D7)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:43 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Role | [0m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent/ServiceRole[22m[0m (AmplifyBranchLinkerCustomResourceProviderframeworkonEventServiceRole92A035EB)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:44 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mauth.NestedStack/auth.NestedStackResource[22m[0m (auth179371D7) [36m[1mResource creation Initiated[22m[39m
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:44 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CDK::Metadata | [0m[1mauth/CDKMetadata/Default[22m[0m (CDKMetadata) [36m[1mResource creation Initiated[22m[39m
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 0/11 | 6:23:44 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Role | [0m[1mAmplifyBranchLinker/CustomResourceLambda/ServiceRole[22m[0m (AmplifyBranchLinkerCustomResourceLambdaServiceRole3DDCBC03) [36m[1mResource creation Initiated[22m[39m
+2024-06-30T18:23:46.775Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 1/11 | 6:23:44 PM | [32mCREATE_COMPLETE [39m | AWS::CDK::Metadata | [32m[1mauth/CDKMetadata/Default[22m[39m (CDKMetadata)
+2024-06-30T18:23:46.775Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 1/11 | 6:23:44 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Role | [0m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent/ServiceRole[22m[0m (AmplifyBranchLinkerCustomResourceProviderframeworkonEventServiceRole92A035EB) [36m[1mResource creation Initiated[22m[39m
+2024-06-30T18:24:01.940Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 2/11 | 6:24:00 PM | [32mCREATE_COMPLETE [39m | AWS::IAM::Role | [32m[1mAmplifyBranchLinker/CustomResourceLambda/ServiceRole[22m[39m (AmplifyBranchLinkerCustomResourceLambdaServiceRole3DDCBC03)
+2024-06-30T18:24:01.945Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 3/11 | 6:24:01 PM | [32mCREATE_COMPLETE [39m | AWS::IAM::Role | [32m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent/ServiceRole[22m[39m (AmplifyBranchLinkerCustomResourceProviderframeworkonEventServiceRole92A035EB)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 3/11 | 6:24:01 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Policy | [0m[1mAmplifyBranchLinker/CustomResourceLambda/ServiceRole/DefaultPolicy[22m[0m (AmplifyBranchLinkerCustomResourceLambdaServiceRoleDefaultPolicy86099CA1)
+2024-06-30T18:24:06.991Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 3/11 | 6:24:02 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Policy | [0m[1mAmplifyBranchLinker/CustomResourceLambda/ServiceRole/DefaultPolicy[22m[0m (AmplifyBranchLinkerCustomResourceLambdaServiceRoleDefaultPolicy86099CA1) [36m[1mResource creation Initiated[22m[39m
+2024-06-30T18:24:22.198Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a-data7552DF31-MNV92YOM934L | 3/11 | 6:24:19 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mamplify-dhoi3bcv79gio-main-branch-0477962c1a-data7552DF31-MNV92YOM934L[22m[0m [36m[1mUser Initiated[22m[39m
+2024-06-30T18:24:22.202Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 4/11 | 6:24:18 PM | [32mCREATE_COMPLETE [39m | AWS::CloudFormation::Stack | [32m[1mauth.NestedStack/auth.NestedStackResource[22m[39m (auth179371D7)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:18 PM | [32mCREATE_COMPLETE [39m | AWS::IAM::Policy | [32m[1mAmplifyBranchLinker/CustomResourceLambda/ServiceRole/DefaultPolicy[22m[39m (AmplifyBranchLinkerCustomResourceLambdaServiceRoleDefaultPolicy86099CA1)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:18 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mdata.NestedStack/data.NestedStackResource[22m[0m (data7552DF31)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:19 PM | [0mCREATE_IN_PROGRESS [0m | AWS::CloudFormation::Stack | [0m[1mdata.NestedStack/data.NestedStackResource[22m[0m (data7552DF31) [36m[1mResource creation Initiated[22m[39m
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:19 PM | [0mCREATE_IN_PROGRESS [0m | AWS::Lambda::Function | [0m[1mAmplifyBranchLinker/CustomResourceLambda[22m[0m (AmplifyBranchLinkerCustomResourceLambda582AC093)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:20 PM | [0mCREATE_IN_PROGRESS [0m | AWS::Lambda::Function | [0m[1mAmplifyBranchLinker/CustomResourceLambda[22m[0m (AmplifyBranchLinkerCustomResourceLambda582AC093) [36m[1mResource creation Initiated[22m[39m
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:21 PM | [0mCREATE_IN_PROGRESS [0m | AWS::Lambda::Function | [0m[1mAmplifyBranchLinker/CustomResourceLambda[22m[0m (AmplifyBranchLinkerCustomResourceLambda582AC093) [36m[1mEventual consistency check initiated[22m[39m
+2024-06-30T18:24:27.257Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:21 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Policy | [0m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent/ServiceRole/DefaultPolicy[22m[0m (AmplifyBranchLinkerCustomResourceProviderframeworkonEventServiceRoleDefaultPolicy38AAE412)
+2024-06-30T18:24:27.262Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 5/11 | 6:24:23 PM | [0mCREATE_IN_PROGRESS [0m | AWS::IAM::Policy | [0m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent/ServiceRole/DefaultPolicy[22m[0m (AmplifyBranchLinkerCustomResourceProviderframeworkonEventServiceRoleDefaultPolicy38AAE412) [36m[1mResource creation Initiated[22m[39m
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 6/11 | 6:24:26 PM | [32mCREATE_COMPLETE [39m | AWS::Lambda::Function | [32m[1mAmplifyBranchLinker/CustomResourceLambda[22m[39m (AmplifyBranchLinkerCustomResourceLambda582AC093)
+2024-06-30T18:24:42.426Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 7/11 | 6:24:38 PM | [32mCREATE_COMPLETE [39m | AWS::IAM::Policy | [32m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent/ServiceRole/DefaultPolicy[22m[39m (AmplifyBranchLinkerCustomResourceProviderframeworkonEventServiceRoleDefaultPolicy38AAE412)
+2024-06-30T18:24:42.430Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 7/11 | 6:24:40 PM | [0mCREATE_IN_PROGRESS [0m | AWS::Lambda::Function | [0m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent[22m[0m (AmplifyBranchLinkerCustomResourceProviderframeworkonEvent3B23F900)
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 7/11 | 6:24:41 PM | [0mCREATE_IN_PROGRESS [0m | AWS::Lambda::Function | [0m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent[22m[0m (AmplifyBranchLinkerCustomResourceProviderframeworkonEvent3B23F900) [36m[1mResource creation Initiated[22m[39m
+amplify-dhoi3bcv79gio-main-branch-0477962c1a | 7/11 | 6:24:41 PM | [0mCREATE_IN_PROGRESS [0m | AWS::Lambda::Function | [0m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent[22m[0m (AmplifyBranchLinkerCustomResourceProviderframeworkonEvent3B23F900) [36m[1mEventual consistency check initiated[22m[39m
+2024-06-30T18:24:47.476Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 8/11 | 6:24:46 PM | [32mCREATE_COMPLETE [39m | AWS::Lambda::Function | [32m[1mAmplifyBranchLinker/CustomResourceProvider/framework-onEvent[22m[39m (AmplifyBranchLinkerCustomResourceProviderframeworkonEvent3B23F900)
+2024-06-30T18:24:47.481Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 8/11 | 6:24:47 PM | [0mCREATE_IN_PROGRESS [0m | Custom::AmplifyBranchLinkerResource | [0m[1mAmplifyBranchLinker/CustomResource/Default[22m[0m (AmplifyBranchLinkerCustomResource96E36FC1)
+2024-06-30T18:24:52.534Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 8/11 | 6:24:51 PM | [0mCREATE_IN_PROGRESS [0m | Custom::AmplifyBranchLinkerResource | [0m[1mAmplifyBranchLinker/CustomResource/Default[22m[0m (AmplifyBranchLinkerCustomResource96E36FC1) [36m[1mResource creation Initiated[22m[39m
+2024-06-30T18:24:52.539Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 9/11 | 6:24:51 PM | [32mCREATE_COMPLETE [39m | Custom::AmplifyBranchLinkerResource | [32m[1mAmplifyBranchLinker/CustomResource/Default[22m[39m (AmplifyBranchLinkerCustomResource96E36FC1)
+2024-06-30T18:25:22.910Z [INFO]: 9/11 Currently in progress: [1mamplify-dhoi3bcv79gio-main-branch-0477962c1a-auth179371D7-1XHWDM7PLO15V, amplify-dhoi3bcv79gio-main-branch-0477962c1a, amplify-dhoi3bcv79gio-main-branch-0477962c1a-data7552DF31-MNV92YOM934L, data7552DF31[22m
+2024-06-30T18:26:33.797Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 10/11 | 6:26:33 PM | [32mCREATE_COMPLETE [39m | AWS::CloudFormation::Stack | [32m[1mdata.NestedStack/data.NestedStackResource[22m[39m (data7552DF31)
+2024-06-30T18:26:37.718Z [INFO]: amplify-dhoi3bcv79gio-main-branch-0477962c1a | 11/11 | 6:26:34 PM | [32mCREATE_COMPLETE [39m | AWS::CloudFormation::Stack | [32m[1mamplify-dhoi3bcv79gio-main-branch-0477962c1a[22m[39m
+2024-06-30T18:26:37.724Z [INFO]: [32m[39m
+[32m ✅ amplify-dhoi3bcv79gio-main-branch-0477962c1a[39m
+✨ Deployment time: 182.81s
+Outputs:
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mallowUnauthenticatedIdentities[39m = [4m[36mtrue[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mamplifyApiModelSchemaS3Uri[39m = [4m[36ms3://amplify-dhoi3bcv79gio-mai-amplifydataamplifycodege-l1eczocm8pqk/model-schema.graphql[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mauthRegion[39m = [4m[36mus-west-2[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mawsAppsyncAdditionalAuthenticationTypes[39m = [4m[36mAMAZON_COGNITO_USER_POOLS,AWS_IAM[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mawsAppsyncApiEndpoint[39m = [4m[36mhttps://golhlyjnxfhphg444l4wjkabfu.appsync-api.us-west-2.amazonaws.com/graphql[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mawsAppsyncApiId[39m = [4m[36mq2lhqtc6sbejfc7yrm43sb3ywa[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mawsAppsyncApiKey[39m = [4m[36mda2-6776aqobr5bivd42r4l354y5xm[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mawsAppsyncAuthenticationType[39m = [4m[36mAPI_KEY[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mawsAppsyncRegion[39m = [4m[36mus-west-2[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mdeploymentType[39m = [4m[36mbranch[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36midentityPoolId[39m = [4m[36mus-west-2:16d2d476-e091-49ae-89d6-d2e601b918c9[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mpasswordPolicyMinLength[39m = [4m[36m8[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mpasswordPolicyRequirements[39m = [4m[36m["REQUIRES_NUMBERS","REQUIRES_LOWERCASE","REQUIRES_UPPERCASE","REQUIRES_SYMBOLS"][39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mregion[39m = [4m[36mus-west-2[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36msignupAttributes[39m = [4m[36m["email"][39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36muserPoolId[39m = [4m[36mus-west-2_UcXEOHjJi[39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36musernameAttributes[39m = [4m[36m["email"][39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mverificationMechanisms[39m = [4m[36m["email"][39m[24m
+[36mamplify-dhoi3bcv79gio-main-branch-0477962c1a[39m.[36mwebClientId[39m = [4m[36m6m2p1rfd0pimj7ndhnuglup7c0[39m[24m
+Stack ARN:
+arn:aws:cloudformation:us-west-2:998893024209:stack/amplify-dhoi3bcv79gio-main-branch-0477962c1a/dcd0f900-370d-11ef-bb4e-0ac642cd908b
+✨ Total time: 182.87s
+2024-06-30T18:26:37.752Z [INFO]:
+2024-06-30T18:26:38.169Z [INFO]: File written: amplify_outputs.json
+2024-06-30T18:26:38.372Z [INFO]: # Completed phase: build
+## Completed Backend Build
+2024-06-30T18:26:38.376Z [INFO]: ## Starting Frontend Build
+# Starting phase: build
+# Executing command: npm install -g @angular/cli
+2024-06-30T18:26:45.235Z [WARNING]: npm WARN
+2024-06-30T18:26:45.239Z [WARNING]: EBADENGINE Unsupported engine {
+npm WARN EBADENGINE package: '@angular/cli@18.0.6',
+npm WARN EBADENGINE required: {
+npm WARN EBADENGINE npm: '^6.11.0 || ^7.5.6 || >=8.0.0',
+npm WARN EBADENGINE node: '^18.19.1 || ^20.11.1 || >=22.0.0',
+npm WARN EBADENGINE yarn: '>= 1.13.0'
+npm WARN EBADENGINE },
+npm WARN EBADENGINE current: { node: 'v18.18.2', npm: '9.8.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE package: '@angular-devkit/architect@0.1800.6',
+npm WARN EBADENGINE required: {
+npm WARN EBADENGINE npm: '^6.11.0 || ^7.5.6 || >=8.0.0',
+npm WARN EBADENGINE node: '^18.19.1 || ^20.11.1 || >=22.0.0',
+npm WARN EBADENGINE yarn: '>= 1.13.0'
+npm WARN EBADENGINE },
+npm WARN EBADENGINE current: { node: 'v18.18.2', npm: '9.8.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE package: '@angular-devkit/core@18.0.6',
+npm WARN EBADENGINE required: {
+npm WARN EBADENGINE npm: '^6.11.0 || ^7.5.6 || >=8.0.0',
+npm WARN EBADENGINE node: '^18.19.1 || ^20.11.1 || >=22.0.0',
+npm WARN EBADENGINE yarn: '>= 1.13.0'
+npm WARN EBADENGINE },
+npm WARN EBADENGINE current: { node: 'v18.18.2', npm: '9.8.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE package: '@angular-devkit/schematics@18.0.6',
+npm WARN EBADENGINE required: {
+npm WARN EBADENGINE npm: '^6.11.0 || ^7.5.6 || >=8.0.0',
+npm WARN EBADENGINE node: '^18.19.1 || ^20.11.1 || >=22.0.0',
+npm WARN EBADENGINE yarn: '>= 1.13.0'
+npm WARN EBADENGINE },
+npm WARN EBADENGINE current: { node: 'v18.18.2', npm: '9.8.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE package: '@schematics/angular@18.0.6',
+npm WARN EBADENGINE required: {
+npm WARN EBADENGINE npm: '^6.11.0 || ^7.5.6 || >=8.0.0',
+npm WARN EBADENGINE node: '^18.19.1 || ^20.11.1 || >=22.0.0',
+npm WARN EBADENGINE yarn: '>= 1.13.0'
+npm WARN EBADENGINE },
+npm WARN EBADENGINE current: { node: 'v18.18.2', npm: '9.8.1' }
+npm WARN EBADENGINE }
+2024-06-30T18:26:47.296Z [INFO]: added 224 packages in 9s
+2024-06-30T18:26:47.297Z [INFO]: 41 packages are looking for funding
+run `npm fund` for details
+2024-06-30T18:26:47.310Z [INFO]: # Executing command: ng version
+2024-06-30T18:26:47.341Z [WARNING]: Node.js version v18.18.2 detected.
+The Angular CLI requires a minimum Node.js version of v18.19.
+Please update your Node.js version or visit https://nodejs.org/ for additional instructions.
+2024-06-30T18:26:47.345Z [ERROR]: !!! Build failed
+2024-06-30T18:26:47.345Z [ERROR]: !!! Error: Command failed with exit code 3
+2024-06-30T18:26:47.345Z [INFO]: # Starting environment caching...
+2024-06-30T18:26:47.346Z [INFO]: # Environment caching completed
