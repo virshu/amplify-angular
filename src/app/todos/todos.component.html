@@ -3,15 +3,14 @@
     <h1>My todos</h1>
     <button (click)="createTodo()">+ new</button>
     <ul>
-        <li 
-            *ngFor="let todo of todos;">
-            {{ todo.content }}
-        </li>
+        @for (todo of todos; track $index) {
+            <li (click)="deleteTodo(todo.id)" > {{ todo.content }} </li>
+        }
     </ul>
     <div>
         🥳 App successfully hosted. Try creating a new todo.
         <br />
-        <a href="https://docs.amplify.aws/gen2/start/quickstart/">
+        <a href="https://docs.amplify.aws/angular/start/quickstart/">
             Review next steps of this tutorial.
         </a>
     </div>
